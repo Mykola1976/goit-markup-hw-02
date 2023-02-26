@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background: #ffffff;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+p {
+  text-indent: 0%;
+}
+/*--header--*/
+
+.text-web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header {
+  color: #ffffff;
+}
+.header-link {
+  color: #434455;
+  cursor: pointer;
+}
+.header-link:hover {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+.header-link:active {
+  color: #404bbf;
+}
+
+.socials-link {
+  color: #434455;
+}
+.socials-link:hover {
+  color: #404bbf;
+}
+
+/*-- name --*/
+.naem {
+  background: #2e2f42;
+}
+
+.button-service {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-service:hover {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.text-button {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+/*pages*/
+
+.button-portfolio {
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.button-portfolio:hover {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-button-portfolio {
+  color: #4d5ae5;
+}
+
+.text-button-portfolio:hover {
+  color: #ffffff;
+}
+
+/*advanta*/
+.advantages-text {
+  color: #434455;
+}
+
+/*our-team*/
+.our-team {
+  background: #f4f4fd;
+}
+
+.naem-carts {
+  background: #ffffff;
+}
+
+/*footer*/
+.footer {
+  background: #2e2f42;
+}
+.footer-text {
+  text: indent 40px;
+  color: #e7e9fc;
+}
+
+.web {
+  color: #4d5ae5;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.studio {
+  color: #f4f4fd;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio-heder {
+  color: #2e2f42;
+}
